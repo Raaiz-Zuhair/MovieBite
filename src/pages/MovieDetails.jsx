@@ -16,6 +16,7 @@ const MovieDetails = () => {
       const json = await response.json();
 
       setData(json)
+      console.log(json)
       }catch(error){
         console.error("Fetching the movie detail" , error)
       }
