@@ -1,0 +1,11 @@
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmNTk4ZTVlNWI5YmNlNzdmM2U4OGZhOTAzNGY5OGEwNiIsIm5iZiI6MTc0OTg4NTU3Ni40MTgsInN1YiI6IjY4NGQyMjg4MTUxNmUzZTY0YjM0NDIyMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.eZdZXvgrnhYrLFVw_PRiBsjPHWj_Mg64YxfcvpZu-Gg
+
+
+
+// All API
+now Playing - 'https://api.themoviedb.org/3/movie/now_playing?
+popular - 'https://api.themoviedb.org/3/movie/popular?
+top_rated - https://api.themoviedb.org/3/movie/top_rated?
+upcoming - 'https://api.themoviedb.org/3/movie/upcoming?
+movie_id - 'https://api.themoviedb.org/3/movie/movie_id?
+search - 'https://api.themoviedb.org/3/search/movie?query=hello
