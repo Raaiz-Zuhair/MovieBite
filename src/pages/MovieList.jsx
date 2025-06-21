@@ -10,8 +10,8 @@ const MovieList = ({apiPath}) => {
   return (
    <main>
      <section className='min-h-screen'>
-      <div className="max-w-6xl mx-auto py-6">
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 sm:place-items-center">
+      <div className="container mx-auto py-6">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
           {
             movies.map(movie => (
               <Card key={movie.id} movie={movie}/>

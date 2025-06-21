@@ -10,7 +10,9 @@ const Card = ({movie}) => {
     <Link to={`/movie/${id}`}>
     <div className='bg-white border border-gray-200 rounded-lg shadow mb-5 p-5'>
         <div className='mt-3'>
-            <img className='mb-3 rounded-md' src={image} alt={original_title} />
+            <div className='flex justify-center md:block'>
+            <img className='mb-3 rounded-md w- md:w-full' src={image} alt={original_title} />
+            </div>
         <h5 className='mb-2 text-xl font-bold text-gray-900'>{original_title}</h5>
         <div className='h-[80px]'>
         <p className='mb-2 line-clamp-3 text-gray-600'>
